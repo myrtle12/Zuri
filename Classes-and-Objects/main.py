@@ -8,21 +8,21 @@ class Student:
         self.score = float (score)
         
     @classmethod
-    def change_name(self, my_name):
-        self.name = my_name
-        print("The student's new name is %s " %my_name)
+    def change_name(self, new_name):
+        self.name = new_name
+        print("The student's new name is %s " %new_name)
         
     @classmethod
-    def change_age(self, my_age):
-        self.age = my_age
-        print("The student's new age is %d " %my_age)
+    def change_age(self, new_age):
+        self.age = new_age
+        print("The student's new age is %d " %new_age)
 
-    def add_track(self, my_track):
-        self.track = my_track
-        print("The student's new track is %s " %my_track)
+    def add_track(self, new_track):
+        self.tracks.append(new_tracks)
+        print("The student's new track is %s " %self.track)
         
     @staticmethod
-    def get_score():
+    def get_score():s
         return (Bob.score)
 
 
